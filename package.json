@@ -1,0 +1,26 @@
+{
+  "name": "restaurante",
+  "version": "1.0.1",
+  "description": "Bibliotecas do Restaurante",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardocintra/restaurante.git"
+  },
+  "keywords": [
+    "restaurante"
+  ],
+  "author": "Leonardo Nascimento Cintra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardocintra/restaurante/issues"
+  },
+  "homepage": "https://github.com/leonardocintra/restaurante#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
