@@ -1,6 +1,6 @@
 {
   "name": "restaurante",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Bibliotecas do Restaurante",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
