@@ -4,6 +4,7 @@ export interface IRestaurante {
   ativo: boolean;
 }
 
+// ################### ITEM ###################
 export interface IItemTipo {
   id: number;
   descricao: string;
@@ -17,33 +18,20 @@ export interface IItem {
   tipoItemId: number;
 }
 
-interface IItemConfiguracoes {
+
+// ################### MARMITEX ###################
+//Grande, Médio, Pequeno
+export interface IMarmitexTipo {
   id: number;
   descricao: string;
+  restaurante: IRestaurante;
 }
 
-interface IConfiguracoes {
+export interface IMarmitexConfiguracao {
   id: number;
+  tipoMarmitex: IMarmitexTipo;
+  tipoItem: IItemTipo;
   quantidade: number;
-  item_tipo: IItemConfiguracoes;
-}
-
-interface IConfiguracoesData {
-  data: IConfiguracoes[];
-}
-
-export interface IMarmitex {
-  id: number;
-  descricao: string;
-  ativo: boolean;
-  preco: number;
-  configuracoes: IConfiguracoesData;
-}
-
-export interface ITipoMarmitex {
-  id: number;
-  descricao: string;
-  restauranteId: number;
 }
 
 export interface ICardapio {
