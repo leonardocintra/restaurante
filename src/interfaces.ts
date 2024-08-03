@@ -27,11 +27,15 @@ export interface IMarmitexTipo {
   restaurante: IRestaurante;
 }
 
-export interface IMarmitexConfiguracao {
-  id: number;
-  tipoMarmitex: IMarmitexTipo;
-  tipoItem: IItemTipo;
+interface IMarmitexConfiguracao {
   quantidade: number;
+  tipoItem: IItemTipo;
+}
+
+export interface IMarmitex {
+  tipoMarmitex: number;
+  descricao: string;
+  configuracao: IMarmitexConfiguracao[]
 }
 
 export interface ICardapio {

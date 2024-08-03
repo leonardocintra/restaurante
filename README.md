@@ -7,11 +7,6 @@ Bibliotecas que serão compartilhadas com o projeto de restaurante.
 Vários "sites" irão usar a mesma lib para consulta e tratamento dos dados de um pedido de restaurante.
 
 
-## Como usar
-```
-npm run build
-npm publish
-```
 
 # NPM
 
