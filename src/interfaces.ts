@@ -6,13 +6,15 @@ export interface IRestaurante {
 
 // ################### ITEM ###################
 export interface IItem {
+  restaurante: string;
+  tipo: string;
   items: Array<string>
 }
 
 export interface ICardapio {
   restaurante: string;
   tipo: string;
-  items: IItem[];
+  items: Array<string>
 }
 
 
