@@ -10,7 +10,7 @@ export interface IItem {
 }
 
 export interface ICardapio {
-  restaurante: number;
+  restaurante: string;
   tipo: string;
   items: IItem[];
 }
