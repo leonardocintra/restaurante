@@ -17,4 +17,12 @@ export interface ICardapio {
   items: Array<string>
 }
 
+export interface IPedido {
+  restaurante: string;
+  pedidoId: string;
+  telefone: string;
+  nome: string;
+  dataPedido: Date;
+}
+
 
