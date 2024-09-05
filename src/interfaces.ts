@@ -25,4 +25,13 @@ export interface IPedido {
   dataPedido: Date;
 }
 
+export interface IMarmitexConfiguracao {
+  restaurante: string;
+  tipoMarmitex: string;
+  maxCarnes: number;
+  maxGuarnicoes: number;
+  maxSaladas: number;
+  preco: number;
+}
+
 
