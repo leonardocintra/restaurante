@@ -23,6 +23,7 @@ export interface IPedido {
   telefone: string;
   nome: string;
   dataPedido: Date;
+  items: string[];
 }
 
 export interface IMarmitexConfiguracao {
