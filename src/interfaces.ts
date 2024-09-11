@@ -22,6 +22,7 @@ export interface IPedido {
   pedidoId: string;
   telefone: string;
   nome: string;
+  sobrenome: string;
   dataPedido: Date;
   items: string[];
 }
